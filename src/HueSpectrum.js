@@ -8,7 +8,9 @@ import VALIDATE from './utils/validate'
 
 import toStringValue from './utils/toStringValue'
 
-export default React.createClass(assign({
+const createReactClass = require('create-react-class')
+
+export default createReactClass(assign({
 
     displayName: 'HueSpectrum',
 
